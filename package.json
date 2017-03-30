@@ -1,0 +1,78 @@
+{
+  "name": "v-highcharts",
+  "version": "1.0.0",
+  "description": "Highcharts component for Vue.js version >= 2.0",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "grunt",
+    "b": "grunt",
+    "dev": "grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nasa8x/v-highcharts.git"
+  },
+  "keywords": [
+    "highcharts",
+    "chart",
+    "charts",
+    "highstock",
+    "highmaps",
+    "vue highcharts",
+    "visualization",
+    "vue charts",   
+    "line charts",   
+    "area charts",   
+    "bar charts",    
+    "column charts",    
+    "pie charts",    
+    "bubble charts",   
+    "scatter charts",
+    "stock charts",   
+    "dynamic charts"
+    
+  ],
+  "author": "Nasa8x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/nasa8x/v-highcharts/issues"
+  },
+  "homepage": "https://gitlab.com/nasa8x/v-highcharts#README",
+  "dependencies": {
+    "highcharts": "^5.0.9"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-2": "*",
+    "babel-runtime": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "grunt": "*",
+    "grunt-babel": "*",
+    "grunt-contrib-clean": "*",    
+    "grunt-contrib-watch": "*",
+    "grunt-webpack": "*",
+    "html-loader": "*",
+    "json-loader": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "vue-loader": "*",
+    "vue-template-compiler": "*",
+    "webpack": "*",
+    "webpack-node-externals": "*"
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015"
+      ],
+      [
+        "stage-2"
+      ]
+    ]
+  }
+}
